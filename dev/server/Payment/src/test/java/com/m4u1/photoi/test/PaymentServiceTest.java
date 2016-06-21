@@ -1,4 +1,4 @@
-package com.macro.pictasty.test;
+package com.m4u1.photoi.test;
 
 import java.util.concurrent.TimeUnit;
 

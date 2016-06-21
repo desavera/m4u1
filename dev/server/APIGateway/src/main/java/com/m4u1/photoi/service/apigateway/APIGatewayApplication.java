@@ -1,4 +1,4 @@
-package com.macro.pictasty.service.apigateway;
+package com.m4u1.photoi.service.apigateway;
 
 
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;

@@ -1,4 +1,4 @@
-package com.crossover.airts.test;
+package com.m4u1.photoi.test;
 
 import org.apache.log4j.Logger;
 import org.junit.Test;
@@ -15,7 +15,7 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import org.springframework.web.client.RestTemplate;
 import org.springframework.web.context.WebApplicationContext;
 
-import com.macro.pictasty.service.apigateway.APIGatewayApplication;
+import com.m4u1.photoi.service.apigateway.APIGatewayApplication;
 
 
 

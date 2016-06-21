@@ -1,4 +1,4 @@
-package com.macro.pictasty.service.payment;
+package com.m4u1.photoi.service.payment;
 
 import java.util.Date;
 import java.util.List;
