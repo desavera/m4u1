@@ -3,8 +3,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>com.crossover.airts</groupId>
-	<artifactId>flightsearch</artifactId>
+	<groupId>com.macro.pictasty</groupId>
 	<version>1.0.0</version>
 	<packaging>war</packaging>	
 	<parent>
@@ -29,17 +28,12 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
-		</dependency>				
+		</dependency>						
 		<dependency>
 			<groupId>commons-lang</groupId>
 			<artifactId>commons-lang</artifactId>
 			<version>2.6</version>
 		</dependency>
-  		<dependency>  
-      		<groupId>commons-logging</groupId>  
-      		<artifactId>commons-logging</artifactId>  
-      		<version>1.2</version>  
-    	</dependency>		
 	</dependencies>
 
 	<properties>
@@ -47,14 +41,14 @@
 	</properties>
 
 	<build>
-		<finalName>flightsearch</finalName>
+		<finalName>users</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.apache.tomcat.maven</groupId>
 				<artifactId>tomcat7-maven-plugin</artifactId>
 				<version>2.1</version>
 				<configuration>
-					<port>8081</port>
+					<port>8082</port>
 					<path>/</path>
 					<additionalConfigFilesDir>${basedir}/src/main/tomcat/conf</additionalConfigFilesDir>
 					<systemProperties>
@@ -92,4 +86,5 @@
 			<url>https://repo.spring.io/libs-release</url>
 		</pluginRepository>
 	</pluginRepositories>
+	<artifactId>payment</artifactId>
 </project>

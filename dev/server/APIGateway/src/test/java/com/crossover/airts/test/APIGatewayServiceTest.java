@@ -15,7 +15,7 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import org.springframework.web.client.RestTemplate;
 import org.springframework.web.context.WebApplicationContext;
 
-import com.crossover.airts.service.apigateway.APIGatewayApplication;
+import com.macro.pictasty.service.apigateway.APIGatewayApplication;
 
 
 
